@@ -1,0 +1,6 @@
+{
+  "id": "stars",
+  "gid": 3000,
+  "members": [ "daisy", "rosco"],
+  "platform" : "centos"
+}
