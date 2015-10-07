@@ -1,6 +1,6 @@
 name "webserver"
 description "Apache Web Server"
-run_list "recipe[apache]"
+run_list "role[core]", "recipe[apache]"
 default_attributes({
   "apache" => {
     "sites" => {
